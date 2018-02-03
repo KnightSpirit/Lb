@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="./lb.css">
+</head>
+
+<body>
+  <div style="width: 400px; height: 300px;" id="lb">
+  </div>
+
+  <div style="width: 800px; height: 300px;" id="lb1">
+  </div>
+  <script src="./Lb.js"></script>
+  <script type="text/javascript">
+    Lb({
+      imgs: ['./jpg/jm.jpg', './jpg/kaihu.jpg'],
+      interval: 10,
+      rootElId: 'lb'
+    });
+    Lb({
+      imgs: ['./jpg/jm.jpg', './jpg/kaihu.jpg'],
+      interval: 2,
+      rootElId: 'lb1'
+    });
+  </script>
+</body>
+
+</html>
